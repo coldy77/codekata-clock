@@ -1,15 +1,5 @@
-package com.coremedia.codekatta.clock;
+package com.coremedia.codekata.clock;
 
-import com.coremedia.codekatta.clock.BerlinClock;
-import com.sun.javaws.exceptions.InvalidArgumentException;
-
-/**
- * Created by IntelliJ IDEA.
- * User: mcoldewe
- * Date: 09.03.12
- * Time: 10:54
- * To change this template use File | Settings | File Templates.
- */
 public class BerlinClockImpl implements BerlinClock {
   private String time;
 

@@ -1,12 +1,5 @@
-package com.coremedia.codekatta.clock;
+package com.coremedia.codekata.clock;
 
-/**
- * Created by IntelliJ IDEA.
- * User: mcoldewe
- * Date: 09.03.12                       int
- * Time: 11:06
- * To change this template use File | Settings | File Templates.
- */
 public class BerlinClockModel {
   private int hours;
   private int minutes;

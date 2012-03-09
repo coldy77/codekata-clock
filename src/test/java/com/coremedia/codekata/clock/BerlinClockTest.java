@@ -1,7 +1,5 @@
-package com.coremedia.codekatte.clock;
+package com.coremedia.codekata.clock;
 
-import com.coremedia.codekatta.clock.BerlinClock;
-import com.coremedia.codekatta.clock.BerlinClockImpl;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -10,14 +8,6 @@ import java.util.List;
 
 import static java.util.Arrays.asList;
 import static org.junit.Assert.assertEquals;
-
-/**
- * Created by IntelliJ IDEA.
- * User: mcoldewe
- * Date: 09.03.12
- * Time: 10:43
- * To change this template use File | Settings | File Templates.
- */
 
 @RunWith(Parameterized.class)
 public class BerlinClockTest {
