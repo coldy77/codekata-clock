@@ -1,5 +1,8 @@
 package com.coremedia.codekata.clock;
 
+/**
+ * Modelclass to hold data for berlinclock and calculates the output
+ */
 public class BerlinClockModel {
   private int hours;
   private int minutes;
@@ -16,11 +19,15 @@ public class BerlinClockModel {
       throw new IllegalArgumentException("hour is invalid. only 24:00:00 is valid with hours 24");
     }
   }
-  
+
+  /**
+   * provides the string for the seconds
+   * @return a string with Y or O
+   */
   public String getSeconds() {
     return seconds%2 == 0 ? "Y" : "O";
   }
-  
+
   public String[] getHours(){
     int hourTop = hours / 5;
     int rest = hours%5;

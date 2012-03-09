@@ -1,5 +1,16 @@
 package com.coremedia.codekata.clock;
 
+
+/**
+ * Implementation for berlin clock interface.
+ * provides the berlin clock informations in the following way:
+ *
+ * #                  The seconds Y or O
+ * ####               The 1/5 Day indicator hour 0(R),5(R),10(R),15(R),20(R)
+ * ####               The single hour appender  before + x
+ * ###########        The 1/12 hour indicator 0(O),5(Y),10(Y),15(R),20(Y),25(Y),30(R),35(Y),40(Y),45(R),50(Y),55(Y)
+ * ####               The minutes between (Y)
+ */
 public class BerlinClockImpl implements BerlinClock {
   private String time;
 
